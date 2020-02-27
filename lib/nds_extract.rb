@@ -43,10 +43,10 @@ def total_gross(source)
   n=0
  names=list_of_directors(source)
   arr=directors_totals(source)
-  
   while n< names.length
   total+=arr[names[n]]
   return total
+end
 end
 
 
